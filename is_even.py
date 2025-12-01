@@ -3,10 +3,10 @@ def is_even(a):
         print('Число',a,'четное')
     else:
         print('Число',a,'нечетное')
-print('Введите число:')
 
 def main():
     a=int(input())
     is_even(a)
+    print('Введите число:')
 if __name__ == "__main__":
     main()
