@@ -6,7 +6,7 @@ def circle(R):
 
 def main(): 
     R=float(input())
-    circle(R) 
     print('Введите радиус круга:')
+    circle(R) 
 if __name__ == "__main__":
     main()
