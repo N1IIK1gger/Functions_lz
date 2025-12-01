@@ -4,7 +4,7 @@ def temperature(C):
 
 def main():
     F=float(input())
-    temperature(F)
     print('Введите температуру в градусах Цельсия:')
+    temperature(F)
 if __name__ == "__main__":
     main()
