@@ -3,7 +3,7 @@ def is_even(a):
         print('Число',a,'четное')
     else:
         print('Число',a,'нечетное')
-print('Введите введите число:')
+print('Введите число:')
 
 def main():
     a=int(input())
