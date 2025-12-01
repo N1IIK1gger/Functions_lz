@@ -3,10 +3,10 @@ def circle(R):
     C=2*3.14*R
     print('Площадь круга =',S)
     print('Длина окружности =',C)
-print('Введите радиус круга:')
 
 def main(): 
     R=float(input())
-    circle(R)
+    circle(R) 
+    print('Введите радиус круга:')
 if __name__ == "__main__":
     main()
