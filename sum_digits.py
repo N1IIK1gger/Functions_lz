@@ -6,7 +6,7 @@ def sum_digits(a):
 
 def main():
     a=input()
-    sum_digits(a)
     print('Введите число:')
+    sum_digits(a)
 if __name__ == "__main__":
     main()
