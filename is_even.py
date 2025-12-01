@@ -6,7 +6,7 @@ def is_even(a):
 
 def main():
     a=int(input())
-    is_even(a)
     print('Введите число:')
+    is_even(a)
 if __name__ == "__main__":
     main()
